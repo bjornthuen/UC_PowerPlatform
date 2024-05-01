@@ -464,6 +464,7 @@ package-lock.json
 *v8.log
 /lib/
 
+Setup_and_Deployment/CustomComponents
 
 webresources/entityscripts/be_faggruppe.js
 webresources/entityscripts/be_faggruppe.js.map
