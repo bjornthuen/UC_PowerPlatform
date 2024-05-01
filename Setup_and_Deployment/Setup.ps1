@@ -6,9 +6,7 @@ Get-Command pac | Format-List
 $installPRT = Start-Job { pac tool prt }
 Wait-Job $installPRT
 
-cd..
-cd CustomComponents
-npm install
+cd ..
 cd CalendarComponent
 npm install
 npm run build

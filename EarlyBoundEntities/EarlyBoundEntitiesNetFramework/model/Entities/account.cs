@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ExampleProject
+namespace UC_EarlyBounds
 {
 	
 	
@@ -3002,15 +3002,15 @@ namespace ExampleProject
 		/// 1:N account_master_account
 		/// </summary>
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("account_master_account", Microsoft.Xrm.Sdk.EntityRole.Referenced)]
-		public System.Collections.Generic.IEnumerable<ExampleProject.Account> Referencedaccount_master_account
+		public System.Collections.Generic.IEnumerable<UC_EarlyBounds.Account> Referencedaccount_master_account
 		{
 			get
 			{
-				return this.GetRelatedEntities<ExampleProject.Account>("account_master_account", Microsoft.Xrm.Sdk.EntityRole.Referenced);
+				return this.GetRelatedEntities<UC_EarlyBounds.Account>("account_master_account", Microsoft.Xrm.Sdk.EntityRole.Referenced);
 			}
 			set
 			{
-				this.SetRelatedEntities<ExampleProject.Account>("account_master_account", Microsoft.Xrm.Sdk.EntityRole.Referenced, value);
+				this.SetRelatedEntities<UC_EarlyBounds.Account>("account_master_account", Microsoft.Xrm.Sdk.EntityRole.Referenced, value);
 			}
 		}
 		
@@ -3018,15 +3018,15 @@ namespace ExampleProject
 		/// 1:N account_parent_account
 		/// </summary>
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("account_parent_account", Microsoft.Xrm.Sdk.EntityRole.Referenced)]
-		public System.Collections.Generic.IEnumerable<ExampleProject.Account> Referencedaccount_parent_account
+		public System.Collections.Generic.IEnumerable<UC_EarlyBounds.Account> Referencedaccount_parent_account
 		{
 			get
 			{
-				return this.GetRelatedEntities<ExampleProject.Account>("account_parent_account", Microsoft.Xrm.Sdk.EntityRole.Referenced);
+				return this.GetRelatedEntities<UC_EarlyBounds.Account>("account_parent_account", Microsoft.Xrm.Sdk.EntityRole.Referenced);
 			}
 			set
 			{
-				this.SetRelatedEntities<ExampleProject.Account>("account_parent_account", Microsoft.Xrm.Sdk.EntityRole.Referenced, value);
+				this.SetRelatedEntities<UC_EarlyBounds.Account>("account_parent_account", Microsoft.Xrm.Sdk.EntityRole.Referenced, value);
 			}
 		}
 		
@@ -3034,15 +3034,15 @@ namespace ExampleProject
 		/// 1:N contact_customer_accounts
 		/// </summary>
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("contact_customer_accounts")]
-		public System.Collections.Generic.IEnumerable<ExampleProject.Contact> contact_customer_accounts
+		public System.Collections.Generic.IEnumerable<UC_EarlyBounds.Contact> contact_customer_accounts
 		{
 			get
 			{
-				return this.GetRelatedEntities<ExampleProject.Contact>("contact_customer_accounts", null);
+				return this.GetRelatedEntities<UC_EarlyBounds.Contact>("contact_customer_accounts", null);
 			}
 			set
 			{
-				this.SetRelatedEntities<ExampleProject.Contact>("contact_customer_accounts", null, value);
+				this.SetRelatedEntities<UC_EarlyBounds.Contact>("contact_customer_accounts", null, value);
 			}
 		}
 		
@@ -3050,15 +3050,15 @@ namespace ExampleProject
 		/// 1:N msa_account_managingpartner
 		/// </summary>
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msa_account_managingpartner", Microsoft.Xrm.Sdk.EntityRole.Referenced)]
-		public System.Collections.Generic.IEnumerable<ExampleProject.Account> Referencedmsa_account_managingpartner
+		public System.Collections.Generic.IEnumerable<UC_EarlyBounds.Account> Referencedmsa_account_managingpartner
 		{
 			get
 			{
-				return this.GetRelatedEntities<ExampleProject.Account>("msa_account_managingpartner", Microsoft.Xrm.Sdk.EntityRole.Referenced);
+				return this.GetRelatedEntities<UC_EarlyBounds.Account>("msa_account_managingpartner", Microsoft.Xrm.Sdk.EntityRole.Referenced);
 			}
 			set
 			{
-				this.SetRelatedEntities<ExampleProject.Account>("msa_account_managingpartner", Microsoft.Xrm.Sdk.EntityRole.Referenced, value);
+				this.SetRelatedEntities<UC_EarlyBounds.Account>("msa_account_managingpartner", Microsoft.Xrm.Sdk.EntityRole.Referenced, value);
 			}
 		}
 		
@@ -3066,15 +3066,15 @@ namespace ExampleProject
 		/// 1:N msa_contact_managingpartner
 		/// </summary>
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msa_contact_managingpartner")]
-		public System.Collections.Generic.IEnumerable<ExampleProject.Contact> msa_contact_managingpartner
+		public System.Collections.Generic.IEnumerable<UC_EarlyBounds.Contact> msa_contact_managingpartner
 		{
 			get
 			{
-				return this.GetRelatedEntities<ExampleProject.Contact>("msa_contact_managingpartner", null);
+				return this.GetRelatedEntities<UC_EarlyBounds.Contact>("msa_contact_managingpartner", null);
 			}
 			set
 			{
-				this.SetRelatedEntities<ExampleProject.Contact>("msa_contact_managingpartner", null, value);
+				this.SetRelatedEntities<UC_EarlyBounds.Contact>("msa_contact_managingpartner", null, value);
 			}
 		}
 		
@@ -3083,11 +3083,11 @@ namespace ExampleProject
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("masterid")]
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("account_master_account", Microsoft.Xrm.Sdk.EntityRole.Referencing)]
-		public ExampleProject.Account Referencingaccount_master_account
+		public UC_EarlyBounds.Account Referencingaccount_master_account
 		{
 			get
 			{
-				return this.GetRelatedEntity<ExampleProject.Account>("account_master_account", Microsoft.Xrm.Sdk.EntityRole.Referencing);
+				return this.GetRelatedEntity<UC_EarlyBounds.Account>("account_master_account", Microsoft.Xrm.Sdk.EntityRole.Referencing);
 			}
 		}
 		
@@ -3096,15 +3096,15 @@ namespace ExampleProject
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("parentaccountid")]
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("account_parent_account", Microsoft.Xrm.Sdk.EntityRole.Referencing)]
-		public ExampleProject.Account Referencingaccount_parent_account
+		public UC_EarlyBounds.Account Referencingaccount_parent_account
 		{
 			get
 			{
-				return this.GetRelatedEntity<ExampleProject.Account>("account_parent_account", Microsoft.Xrm.Sdk.EntityRole.Referencing);
+				return this.GetRelatedEntity<UC_EarlyBounds.Account>("account_parent_account", Microsoft.Xrm.Sdk.EntityRole.Referencing);
 			}
 			set
 			{
-				this.SetRelatedEntity<ExampleProject.Account>("account_parent_account", Microsoft.Xrm.Sdk.EntityRole.Referencing, value);
+				this.SetRelatedEntity<UC_EarlyBounds.Account>("account_parent_account", Microsoft.Xrm.Sdk.EntityRole.Referencing, value);
 			}
 		}
 		
@@ -3113,15 +3113,15 @@ namespace ExampleProject
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("primarycontactid")]
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("account_primary_contact")]
-		public ExampleProject.Contact account_primary_contact
+		public UC_EarlyBounds.Contact account_primary_contact
 		{
 			get
 			{
-				return this.GetRelatedEntity<ExampleProject.Contact>("account_primary_contact", null);
+				return this.GetRelatedEntity<UC_EarlyBounds.Contact>("account_primary_contact", null);
 			}
 			set
 			{
-				this.SetRelatedEntity<ExampleProject.Contact>("account_primary_contact", null, value);
+				this.SetRelatedEntity<UC_EarlyBounds.Contact>("account_primary_contact", null, value);
 			}
 		}
 		
@@ -3130,15 +3130,15 @@ namespace ExampleProject
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msa_managingpartnerid")]
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msa_account_managingpartner", Microsoft.Xrm.Sdk.EntityRole.Referencing)]
-		public ExampleProject.Account Referencingmsa_account_managingpartner
+		public UC_EarlyBounds.Account Referencingmsa_account_managingpartner
 		{
 			get
 			{
-				return this.GetRelatedEntity<ExampleProject.Account>("msa_account_managingpartner", Microsoft.Xrm.Sdk.EntityRole.Referencing);
+				return this.GetRelatedEntity<UC_EarlyBounds.Account>("msa_account_managingpartner", Microsoft.Xrm.Sdk.EntityRole.Referencing);
 			}
 			set
 			{
-				this.SetRelatedEntity<ExampleProject.Account>("msa_account_managingpartner", Microsoft.Xrm.Sdk.EntityRole.Referencing, value);
+				this.SetRelatedEntity<UC_EarlyBounds.Account>("msa_account_managingpartner", Microsoft.Xrm.Sdk.EntityRole.Referencing, value);
 			}
 		}
 	}

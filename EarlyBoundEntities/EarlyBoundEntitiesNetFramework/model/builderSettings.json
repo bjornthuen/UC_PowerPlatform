@@ -30,7 +30,7 @@
   "messagestypesfolder-comment": "Folder name that contains messages.",
   "messagesTypesFolder": "Messages",
   "namespace-comment": "The namespace for the generated code.",
-  "namespace": "ExampleProject",
+  "namespace": "UC_EarlyBounds",
   "optionsetstypesfolder-comment": "Folder name that contains option sets.",
   "optionSetsTypesFolder": "OptionSets",
   "serviceContextName-comment": "The name for the generated service context. If a value is passed in, it's used for the Service Context. If not, no Service Context is generated.",

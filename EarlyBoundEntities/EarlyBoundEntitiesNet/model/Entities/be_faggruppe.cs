@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ExampleProject
+namespace UC_EarlyBounds
 {
 	
 	
@@ -364,15 +364,15 @@ namespace ExampleProject
 		/// N:N be_Faggruppe_Contact_Contact
 		/// </summary>
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("be_Faggruppe_Contact_Contact")]
-		public System.Collections.Generic.IEnumerable<ExampleProject.Contact> be_Faggruppe_Contact_Contact
+		public System.Collections.Generic.IEnumerable<UC_EarlyBounds.Contact> be_Faggruppe_Contact_Contact
 		{
 			get
 			{
-				return this.GetRelatedEntities<ExampleProject.Contact>("be_Faggruppe_Contact_Contact", null);
+				return this.GetRelatedEntities<UC_EarlyBounds.Contact>("be_Faggruppe_Contact_Contact", null);
 			}
 			set
 			{
-				this.SetRelatedEntities<ExampleProject.Contact>("be_Faggruppe_Contact_Contact", null, value);
+				this.SetRelatedEntities<UC_EarlyBounds.Contact>("be_Faggruppe_Contact_Contact", null, value);
 			}
 		}
 		
@@ -381,15 +381,15 @@ namespace ExampleProject
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("be_foredragsholder")]
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("be_faggruppe_Foredragsholder_contact")]
-		public ExampleProject.Contact be_faggruppe_Foredragsholder_contact
+		public UC_EarlyBounds.Contact be_faggruppe_Foredragsholder_contact
 		{
 			get
 			{
-				return this.GetRelatedEntity<ExampleProject.Contact>("be_faggruppe_Foredragsholder_contact", null);
+				return this.GetRelatedEntity<UC_EarlyBounds.Contact>("be_faggruppe_Foredragsholder_contact", null);
 			}
 			set
 			{
-				this.SetRelatedEntity<ExampleProject.Contact>("be_faggruppe_Foredragsholder_contact", null, value);
+				this.SetRelatedEntity<UC_EarlyBounds.Contact>("be_faggruppe_Foredragsholder_contact", null, value);
 			}
 		}
 	}

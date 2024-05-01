@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ExampleProject
+namespace UC_EarlyBounds
 {
 	
 	
@@ -4064,15 +4064,15 @@ namespace ExampleProject
 		/// 1:N account_primary_contact
 		/// </summary>
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("account_primary_contact")]
-		public System.Collections.Generic.IEnumerable<ExampleProject.Account> account_primary_contact
+		public System.Collections.Generic.IEnumerable<UC_EarlyBounds.Account> account_primary_contact
 		{
 			get
 			{
-				return this.GetRelatedEntities<ExampleProject.Account>("account_primary_contact", null);
+				return this.GetRelatedEntities<UC_EarlyBounds.Account>("account_primary_contact", null);
 			}
 			set
 			{
-				this.SetRelatedEntities<ExampleProject.Account>("account_primary_contact", null, value);
+				this.SetRelatedEntities<UC_EarlyBounds.Account>("account_primary_contact", null, value);
 			}
 		}
 		
@@ -4080,15 +4080,15 @@ namespace ExampleProject
 		/// 1:N be_faggruppe_Foredragsholder_contact
 		/// </summary>
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("be_faggruppe_Foredragsholder_contact")]
-		public System.Collections.Generic.IEnumerable<ExampleProject.be_Faggruppe> be_faggruppe_Foredragsholder_contact
+		public System.Collections.Generic.IEnumerable<UC_EarlyBounds.be_Faggruppe> be_faggruppe_Foredragsholder_contact
 		{
 			get
 			{
-				return this.GetRelatedEntities<ExampleProject.be_Faggruppe>("be_faggruppe_Foredragsholder_contact", null);
+				return this.GetRelatedEntities<UC_EarlyBounds.be_Faggruppe>("be_faggruppe_Foredragsholder_contact", null);
 			}
 			set
 			{
-				this.SetRelatedEntities<ExampleProject.be_Faggruppe>("be_faggruppe_Foredragsholder_contact", null, value);
+				this.SetRelatedEntities<UC_EarlyBounds.be_Faggruppe>("be_faggruppe_Foredragsholder_contact", null, value);
 			}
 		}
 		
@@ -4096,15 +4096,15 @@ namespace ExampleProject
 		/// 1:N contact_customer_contacts
 		/// </summary>
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("contact_customer_contacts", Microsoft.Xrm.Sdk.EntityRole.Referenced)]
-		public System.Collections.Generic.IEnumerable<ExampleProject.Contact> Referencedcontact_customer_contacts
+		public System.Collections.Generic.IEnumerable<UC_EarlyBounds.Contact> Referencedcontact_customer_contacts
 		{
 			get
 			{
-				return this.GetRelatedEntities<ExampleProject.Contact>("contact_customer_contacts", Microsoft.Xrm.Sdk.EntityRole.Referenced);
+				return this.GetRelatedEntities<UC_EarlyBounds.Contact>("contact_customer_contacts", Microsoft.Xrm.Sdk.EntityRole.Referenced);
 			}
 			set
 			{
-				this.SetRelatedEntities<ExampleProject.Contact>("contact_customer_contacts", Microsoft.Xrm.Sdk.EntityRole.Referenced, value);
+				this.SetRelatedEntities<UC_EarlyBounds.Contact>("contact_customer_contacts", Microsoft.Xrm.Sdk.EntityRole.Referenced, value);
 			}
 		}
 		
@@ -4112,15 +4112,15 @@ namespace ExampleProject
 		/// 1:N contact_master_contact
 		/// </summary>
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("contact_master_contact", Microsoft.Xrm.Sdk.EntityRole.Referenced)]
-		public System.Collections.Generic.IEnumerable<ExampleProject.Contact> Referencedcontact_master_contact
+		public System.Collections.Generic.IEnumerable<UC_EarlyBounds.Contact> Referencedcontact_master_contact
 		{
 			get
 			{
-				return this.GetRelatedEntities<ExampleProject.Contact>("contact_master_contact", Microsoft.Xrm.Sdk.EntityRole.Referenced);
+				return this.GetRelatedEntities<UC_EarlyBounds.Contact>("contact_master_contact", Microsoft.Xrm.Sdk.EntityRole.Referenced);
 			}
 			set
 			{
-				this.SetRelatedEntities<ExampleProject.Contact>("contact_master_contact", Microsoft.Xrm.Sdk.EntityRole.Referenced, value);
+				this.SetRelatedEntities<UC_EarlyBounds.Contact>("contact_master_contact", Microsoft.Xrm.Sdk.EntityRole.Referenced, value);
 			}
 		}
 		
@@ -4128,15 +4128,15 @@ namespace ExampleProject
 		/// N:N be_Faggruppe_Contact_Contact
 		/// </summary>
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("be_Faggruppe_Contact_Contact")]
-		public System.Collections.Generic.IEnumerable<ExampleProject.be_Faggruppe> be_Faggruppe_Contact_Contact
+		public System.Collections.Generic.IEnumerable<UC_EarlyBounds.be_Faggruppe> be_Faggruppe_Contact_Contact
 		{
 			get
 			{
-				return this.GetRelatedEntities<ExampleProject.be_Faggruppe>("be_Faggruppe_Contact_Contact", null);
+				return this.GetRelatedEntities<UC_EarlyBounds.be_Faggruppe>("be_Faggruppe_Contact_Contact", null);
 			}
 			set
 			{
-				this.SetRelatedEntities<ExampleProject.be_Faggruppe>("be_Faggruppe_Contact_Contact", null, value);
+				this.SetRelatedEntities<UC_EarlyBounds.be_Faggruppe>("be_Faggruppe_Contact_Contact", null, value);
 			}
 		}
 		
@@ -4145,15 +4145,15 @@ namespace ExampleProject
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("parentcustomerid")]
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("contact_customer_accounts")]
-		public ExampleProject.Account contact_customer_accounts
+		public UC_EarlyBounds.Account contact_customer_accounts
 		{
 			get
 			{
-				return this.GetRelatedEntity<ExampleProject.Account>("contact_customer_accounts", null);
+				return this.GetRelatedEntity<UC_EarlyBounds.Account>("contact_customer_accounts", null);
 			}
 			set
 			{
-				this.SetRelatedEntity<ExampleProject.Account>("contact_customer_accounts", null, value);
+				this.SetRelatedEntity<UC_EarlyBounds.Account>("contact_customer_accounts", null, value);
 			}
 		}
 		
@@ -4162,15 +4162,15 @@ namespace ExampleProject
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("parentcustomerid")]
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("contact_customer_contacts", Microsoft.Xrm.Sdk.EntityRole.Referencing)]
-		public ExampleProject.Contact Referencingcontact_customer_contacts
+		public UC_EarlyBounds.Contact Referencingcontact_customer_contacts
 		{
 			get
 			{
-				return this.GetRelatedEntity<ExampleProject.Contact>("contact_customer_contacts", Microsoft.Xrm.Sdk.EntityRole.Referencing);
+				return this.GetRelatedEntity<UC_EarlyBounds.Contact>("contact_customer_contacts", Microsoft.Xrm.Sdk.EntityRole.Referencing);
 			}
 			set
 			{
-				this.SetRelatedEntity<ExampleProject.Contact>("contact_customer_contacts", Microsoft.Xrm.Sdk.EntityRole.Referencing, value);
+				this.SetRelatedEntity<UC_EarlyBounds.Contact>("contact_customer_contacts", Microsoft.Xrm.Sdk.EntityRole.Referencing, value);
 			}
 		}
 		
@@ -4179,11 +4179,11 @@ namespace ExampleProject
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("masterid")]
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("contact_master_contact", Microsoft.Xrm.Sdk.EntityRole.Referencing)]
-		public ExampleProject.Contact Referencingcontact_master_contact
+		public UC_EarlyBounds.Contact Referencingcontact_master_contact
 		{
 			get
 			{
-				return this.GetRelatedEntity<ExampleProject.Contact>("contact_master_contact", Microsoft.Xrm.Sdk.EntityRole.Referencing);
+				return this.GetRelatedEntity<UC_EarlyBounds.Contact>("contact_master_contact", Microsoft.Xrm.Sdk.EntityRole.Referencing);
 			}
 		}
 		
@@ -4192,15 +4192,15 @@ namespace ExampleProject
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msa_managingpartnerid")]
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msa_contact_managingpartner")]
-		public ExampleProject.Account msa_contact_managingpartner
+		public UC_EarlyBounds.Account msa_contact_managingpartner
 		{
 			get
 			{
-				return this.GetRelatedEntity<ExampleProject.Account>("msa_contact_managingpartner", null);
+				return this.GetRelatedEntity<UC_EarlyBounds.Account>("msa_contact_managingpartner", null);
 			}
 			set
 			{
-				this.SetRelatedEntity<ExampleProject.Account>("msa_contact_managingpartner", null, value);
+				this.SetRelatedEntity<UC_EarlyBounds.Account>("msa_contact_managingpartner", null, value);
 			}
 		}
 	}

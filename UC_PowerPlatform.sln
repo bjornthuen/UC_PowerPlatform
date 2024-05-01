@@ -18,6 +18,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EarlyBoundEntitiesNet", "Ea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EarlyBoundEntitiesNetFramework", "EarlyBoundEntities\EarlyBoundEntitiesNetFramework\EarlyBoundEntitiesNetFramework.csproj", "{7419C0E4-BED0-408B-9791-077D1CDB6A7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "Plugins\Plugins.csproj", "{6355A999-792F-42D7-B744-18A857AB0D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDemo", "ConsoleDemo\ConsoleDemo.csproj", "{A7C31B0B-3204-4663-91AD-59BC58FB472F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +50,14 @@ Global
 		{7419C0E4-BED0-408B-9791-077D1CDB6A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7419C0E4-BED0-408B-9791-077D1CDB6A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7419C0E4-BED0-408B-9791-077D1CDB6A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6355A999-792F-42D7-B744-18A857AB0D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6355A999-792F-42D7-B744-18A857AB0D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6355A999-792F-42D7-B744-18A857AB0D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6355A999-792F-42D7-B744-18A857AB0D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C31B0B-3204-4663-91AD-59BC58FB472F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C31B0B-3204-4663-91AD-59BC58FB472F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C31B0B-3204-4663-91AD-59BC58FB472F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C31B0B-3204-4663-91AD-59BC58FB472F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

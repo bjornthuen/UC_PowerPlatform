@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ExampleProject
+namespace UC_EarlyBounds
 {
 	
 	

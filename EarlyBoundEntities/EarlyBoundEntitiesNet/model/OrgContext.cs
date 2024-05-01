@@ -10,7 +10,7 @@
 
 [assembly: Microsoft.Xrm.Sdk.Client.ProxyTypesAssemblyAttribute()]
 
-namespace ExampleProject
+namespace UC_EarlyBounds
 {
 	
 	
@@ -29,35 +29,35 @@ namespace ExampleProject
 		}
 		
 		/// <summary>
-		/// Gets a binding to the set of all <see cref="ExampleProject.Account"/> entities.
+		/// Gets a binding to the set of all <see cref="UC_EarlyBounds.Account"/> entities.
 		/// </summary>
-		public System.Linq.IQueryable<ExampleProject.Account> AccountSet
+		public System.Linq.IQueryable<UC_EarlyBounds.Account> AccountSet
 		{
 			get
 			{
-				return this.CreateQuery<ExampleProject.Account>();
+				return this.CreateQuery<UC_EarlyBounds.Account>();
 			}
 		}
 		
 		/// <summary>
-		/// Gets a binding to the set of all <see cref="ExampleProject.be_Faggruppe"/> entities.
+		/// Gets a binding to the set of all <see cref="UC_EarlyBounds.be_Faggruppe"/> entities.
 		/// </summary>
-		public System.Linq.IQueryable<ExampleProject.be_Faggruppe> be_FaggruppeSet
+		public System.Linq.IQueryable<UC_EarlyBounds.be_Faggruppe> be_FaggruppeSet
 		{
 			get
 			{
-				return this.CreateQuery<ExampleProject.be_Faggruppe>();
+				return this.CreateQuery<UC_EarlyBounds.be_Faggruppe>();
 			}
 		}
 		
 		/// <summary>
-		/// Gets a binding to the set of all <see cref="ExampleProject.Contact"/> entities.
+		/// Gets a binding to the set of all <see cref="UC_EarlyBounds.Contact"/> entities.
 		/// </summary>
-		public System.Linq.IQueryable<ExampleProject.Contact> ContactSet
+		public System.Linq.IQueryable<UC_EarlyBounds.Contact> ContactSet
 		{
 			get
 			{
-				return this.CreateQuery<ExampleProject.Contact>();
+				return this.CreateQuery<UC_EarlyBounds.Contact>();
 			}
 		}
 	}
