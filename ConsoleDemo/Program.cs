@@ -6,9 +6,9 @@ using UC_EarlyBounds;
 
 var url = "https://org70c66a0d.crm4.dynamics.com";
 var appId = "461843d0-0502-4502-981b-419ea6af1af1";
-var redirectUri = "https://localhost/";
+var redirectUri = "http://localhost/";
 
-var connectionString = $"AuthType=OAuth;Integrated Security=true;Url={url};AppId={appId};RedirectUri={redirectUri};LoginPrompt=Auto";
+var connectionString = $"AuthType=OAuth;Url={url};AppId={appId};RedirectUri={redirectUri};LoginPrompt=Auto";
 
 ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 ServiceClient serviceClient = new ServiceClient(connectionString);
